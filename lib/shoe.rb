@@ -9,8 +9,9 @@ class Shoe
     @brand = brand
     BRANDS << @brand
     BRANDS.uniq.size
+     binding.pry
   end
-  binding.pry
+ 
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
